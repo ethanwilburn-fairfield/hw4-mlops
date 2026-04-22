@@ -3,6 +3,13 @@
 # Project overview:
 This project deploys a machine learning API for predicting customer satisfaction for Olist marketplace orders. The deployed model is a tuned XGBoost pipeline trained on engineered order-level features from the Olist dataset. The goal of the model is to act as an early warning system by predicting whether a customer is likely to leave a positive review (4–5 stars) or a negative review (1–3 stars) based on order, freight, delivery, and customer/order context features before the review is written.
 
+The project includes:
+- a Flask REST API for serving predictions
+- local and Docker-based deployment
+- live cloud deployment on Render
+- experiment tracking with MLflow
+- drift detection and performance monitoring over simulated production data
+
 # public URL: https://ethan-hw4-mlops-api.onrender.com
 
 # API documentation:
